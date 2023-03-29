@@ -62,7 +62,7 @@ keep `quml-carousel.css` in the root folder.
 Create a **question-cursor-implementation.service.ts** in a project that will implement the `QuestionCursor` abstract class.\
 `QuestionCursor` is an abstract class, exported from the library, which needs to be implemented. Basically, it has some methods which should make an API request over HTTP
 
-For more information refer [question-cursor-implementation.service.ts](https://github.com/project-sunbird/sunbird-quml-player/blob/release-4.7.0/projects/quml-demo-app/src/app/question-cursor-implementation.service.ts) and do not forget to add your question list API URL here, for example: [https://staging.sunbirded.org/api/question/v1/list](https://staging.sunbirded.org/api/question/v1/list)
+For more information refer [question-cursor-implementation.service.ts](https://github.com/project-sunbird/sunbird-quml-player/blob/release-4.7.0/projects/quml-demo-app/src/app/question-cursor-implementation.service.ts) and do not forget to add your question list API URL here, for example: [https://dev.inquiry.sunbird.org/api/question/v1/list](https://dev.inquiry.sunbird.org/api/question/v1/list)
 
 #### :label: Step 4: Include the styles, scripts, and assets in angular.json
 
@@ -174,9 +174,9 @@ The QuML Library can also be used as a web component which means users can impor
     ```javascript
     <script  type="text/javascript"  src="sunbird-quml-player.js"></script>
     ```
-* Create an asset folder and copy all the files from [here](https://github.com/project-sunbird/sunbird-quml-player/tree/release-4.7.0/web-component/assets), the library requires these assets internally to work well.
-* Get sample playerConfig from here: [playerConfig](https://github.com/project-sunbird/sunbird-quml-player/blob/release-4.7.0/projects/quml-demo-app/src/app/quml-library-data.ts)
-* Pass the QuestionListAPI baseUrl for eg. [https://staging.sunbirded.org/api/question/v1/list](https://staging.sunbirded.org/api/question/v1/list)
+* Create an asset folder and copy all the files from [here](https://github.com/Sunbird-inQuiry/player/tree/release-4.7.0/web-component/assets), the library requires these assets internally to work well.
+* Get sample playerConfig from here: [playerConfig](https://github.com/Sunbird-inQuiry/player/blob/release-4.7.0/projects/quml-demo-app/src/app/quml-library-data.ts)
+* Pass the QuestionListAPI baseUrl for eg. [https://dev.inquiry.sunbird.org/api/question/v1/list](https://dev.inquiry.sunbird.org/api/question/v1/list)
 *   Create a custom html element: `sunbird-quml-player`
 
     ```javascript
@@ -205,7 +205,7 @@ The QuML Library can also be used as a web component which means users can impor
     const myPlayer = document.getElementById("my-player");
     myPlayer.appendChild(qumlPlayerElement);
     ```
-* :arrow\_forward: Refer demo [example](https://github.com/project-sunbird/sunbird-quml-player/blob/release-4.7.0/web-component/index.html)
+* :arrow\_forward: Refer demo [example](https://github.com/Sunbird-inQuiry/player/blob/release-4.7.0/web-component/index.html)
 
 ***
 
@@ -213,7 +213,7 @@ The QuML Library can also be used as a web component which means users can impor
 
 ### Repo Setup
 
-* Clone the Repo with the desired release branch - https://github.com/project-sunbird/sunbird-quml-player
+* Clone the Repo with the desired release branch - https://github.com/Sunbird-inQuiry/player
 * Add your questionList API\_URL in `/projects/quml-demo-app/src/app/question-cursor-implementation.service.ts`
 * Run `npm i` in root folder
 * Run `npm i` in `projects/quml-library`
