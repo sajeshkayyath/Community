@@ -2,12 +2,24 @@
 
 ## :label: System requirements <a href="#system-requirements" id="system-requirements"></a>
 
-The following are prerequisites to use question set editor&#x20;
+The following are prerequisites to use question set player&#x20;
 
 | Softwares / Frameworks | Version    |
 | ---------------------- | ---------- |
-| Node                   | 10x to 12x |
-| Angular                | 9.1.12     |
+| Node                   | 14         |
+| Angular                | 12         |
+
+*The QuML player is tested against the above versions. Updating to future versions needs further testing.*
+
+For more information on installing Node.js, see [nodejs.org](nodejs.org). If you are unsure what version of
+Node.js runs on your system, run “node -v” in a command prompt (terminal) window
+
+For installing a specific version of node, please consider using the [nvm](https://github.com/nvm-sh/nvm).
+nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+It should also work with GitBash (MSYS) or Cygwin
+
+For more information on installing angular, see [angular.io/cli](angular.io/cli). If you are unsure what version of
+Angular runs on your system, run “ng version” in a command prompt (terminal) window.
 
 ## :diamond\_shape\_with\_a\_dot\_inside: QuML player library for Sunbird platform
 
